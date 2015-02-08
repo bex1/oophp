@@ -1,0 +1,55 @@
+
+
+/** --------------------------------------------------------------
+ * Navbar: Plain style, nothing special
+ *
+ */
+ul.nb-plain {
+    float: none;
+    margin: 0;
+    padding-top: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul.nb-plain li {
+    padding: 0 0px 4px 0px;
+    margin: 0;
+    height: 42px;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}
+
+ul.nb-plain li:first-child {
+
+}
+
+ul.nb-plain li.alpha a {
+    border: none;
+}
+
+
+ul.nb-plain li.selected a {
+    color: #ffcbfa;
+}
+
+ul.nb-plain li.selected {
+    background: transparent url('../img/arrow.png') no-repeat 75px bottom;
+}
+
+ul.nb-plain a {
+    display: block;
+    width: 150px;
+    padding: 4px 7px 4px 7px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-left: 1px solid #e6e2df;
+    text-align: center;
+}
+
+ul.nb-plain a:hover {
+    color: #2f2f2f;
+}
