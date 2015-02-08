@@ -1,1 +1,1 @@
-Bex is a PHP-boilerplate/framework for small websites. Bex was built by Daniel Bäckström (danbacks@student.chalmers.se) and published in february 2015 as an article at http://dbwebb.se/kunskap (swedish). It was also published at GitHub: .
+The site is a course me-page in oophp at BTH based on the Bex framework. Bex was built by Daniel Bäckström (danbacks@student.chalmers.se). The site was published at GitHub: https://github.com/bex1/oophp.

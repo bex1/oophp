@@ -25,7 +25,7 @@ The following external modules are included and subject to its own license.
 History
 -----------------------------------
 
-v1.0.0 (2015-02-07)
+v1.0.0 (2015-02-08)
 
 * First release.
 
