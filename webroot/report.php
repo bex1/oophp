@@ -34,6 +34,22 @@ Dock så kan man självklart modifiera strukturen, vilket jag kanske gör i näs
 <p> Ja det gick smidigt. Tittade lite på hur Moz hade gjort och sen fick jag ordning på det efter typ 5 min på ett liknande sätt i en modul. </p>
 <h3>Gjorde du extrauppgiften med GitHub?</h3>
 <p> Ja, jag pushade upp frameworket och projektet till git. Detta gör jag alltid när jag jobbar med projekt, dock så kör vi med bitbucket på jobbet. </p>
+
+<h2>Kmom02: Objektorienterad programmering i PHP</h2>
+<h3>Hur väl känner du till objektorienterade koncept och programmeringssätt?</h3>
+<p>Jag jobbar dagligen med objektorientering så det är inte nytt på något sätt. De första språken jag lärde mig var objektorienterade så tankesättet sitter i
+i ryggmärgen kan man säga. Det var intressant att se hurpass likt Java och C# objektorienteringen i Php är.</p>
+<h3>Jobbade du igenom oophp20-guiden eller skumläste du den?</h3>
+<p>Jag skumläste den om jag ska vara ärlig. Jag känner inte att jag behöver öva på objektorientering direkt. Jag fokuserade istället på syntaxen.</p>
+<h3>Berätta om hur du löste uppgiften med tärningsspelet 100, hur tänkte du och hur gjorde du, hur organiserade du din kod?</h3>
+<p>Jag höll det enkelt och slösade inte bort tid på onödiga objekt och konstruktioner. Det är det första man lär sig som konsult att ta den enkla minst tidskrävande vägen
+när man jobbar med moduler, annat är slöseri med tid. Så det enda som behövdes i detta exempel är en tärning, spelare och ett spel. Därav skapade jag Dice, DiceGame och DicePlayer.
+I uppgiftsbeskrivningen så nämndes det något om ett objekt för spelrundan, vilket hade varit på sin plats om jag ville implementera playback men jag kände att objektet inte hörde
+hemma i min lösning då den hade bidragit med onödig komplicitet. Dessutom så kan man ju enkelt hålla koll på poängen med två separata variabler savedScore resp score. Mitt spel
+ är dock en variant av själva uppgiftsbeskrivningen då jag byter spelare mellan varje val. Där man får välja mellan att spara sina poäng eller att kasta tärningen. När man sedan
+ eventuellt får en etta så faller man ner till sin sparade poäng. Därav är utmaningen att spara vid rätt tillfälle. De datorstyrda spelarna gör detta genom en väldigt enkel form av
+ AI. Jag kan väll också nämna att jag inte direkt brydde mig om att separera domänmodllen helt från html generering aka MVC då det hade krävt ett ytterligare lager av komplexitet. Det hade jag dock
+ troligen gjort i jobbet dock.</p>
 {$bex['byline']}
 
 </article>

@@ -78,7 +78,8 @@ $bex['navbar'] = array(
     'class' => 'nb-plain',
     'items' => array(
         'hem'         => array('text'=>'Hem',         'url'=>'me.php',          'title' => 'Min presentation om mig själv'),
-        'redovisning' => array('text'=>'Redovisning', 'url'=>'report.php', 'title' => 'Redovisningar för kursmomenten'),
+        'redovisning' => array('text'=>'Redovisning', 'url'=>'report.php',      'title' => 'Redovisningar för kursmomenten'),
+        'tärningar'   => array('text'=>'Tärningsspel','url'=>'dice.php',        'title' => 'Tärningsspel'),
         'kallkod'     => array('text'=>'Källkod',     'url'=>'source.php',      'title' => 'Se källkoden'),
     ),
     'callback_selected' => function($url) {
@@ -96,7 +97,7 @@ $bex['navbar'] = array(
  */
 //$bex['stylesheet'] = 'css/style.css';
 $bex['stylesheets'] = array('css/style.css');
-$bex['favicon']    = 'favicon.ico';
+$bex['favicon']    = 'img/bex.png';
 
 /**
  * Settings for JavaScript.
